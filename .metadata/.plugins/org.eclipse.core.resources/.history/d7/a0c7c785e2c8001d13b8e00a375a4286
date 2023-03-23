@@ -1,0 +1,15 @@
+package AprendendoSintaxe;
+
+public class MinhaClass {
+	
+	
+public static void main(String [] args) {
+	double altura = 1.62;
+		int idade = 23;
+		boolean simNao = true;
+		
+	System.out.println("Olá");
+	System.out.println(altura);
+	System.out.println(simNao);
+}
+}

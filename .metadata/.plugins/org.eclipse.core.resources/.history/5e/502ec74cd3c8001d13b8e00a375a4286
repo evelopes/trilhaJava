@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author eveli
+ *
+ */
+module Java {
+}

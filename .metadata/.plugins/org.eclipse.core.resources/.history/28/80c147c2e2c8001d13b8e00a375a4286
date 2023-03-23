@@ -1,0 +1,25 @@
+package AprendendoSintaxe;
+
+public class MinhaClass {
+	
+	
+public static void main(String [] args) {
+	double altura = 1.62;
+		int idade = 23;
+		boolean simNao = true;
+		String nome = "Eve";
+		String sobrenome = "Lopes";
+		
+		
+	System.out.println("Olá");
+	System.out.println(altura);
+	System.out.println(simNao);
+	
+	System.out.println(nomeCompleto(nome, sobrenome));
+}
+
+public static String nomeCompleto(String nome, String sobrenome) {
+	return nome.concat(" ").concat(sobrenome);
+}
+
+}

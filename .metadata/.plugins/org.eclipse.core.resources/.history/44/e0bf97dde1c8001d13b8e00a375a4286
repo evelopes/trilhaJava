@@ -1,0 +1,13 @@
+package AprendendoSintaxe;
+
+public class MinhaClass {
+	
+	
+public static void main(String [] args) {
+		int idade = 23;
+		double altura = 1.62;
+		
+	System.out.println("Olá");
+	System.out.println(altura);
+}
+}
