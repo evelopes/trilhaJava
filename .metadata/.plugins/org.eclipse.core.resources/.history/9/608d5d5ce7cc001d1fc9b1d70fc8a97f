@@ -1,0 +1,25 @@
+package edu.eve.Operadores;
+
+public class Operadores {
+	int a, b;
+	
+		Operadores(int a, int b){
+			this.a = a;
+			this.b = b;
+		}
+	
+	String verdOuFalso() {
+		
+		return a==b ? "verdadeiro" : "falso";
+	}
+	
+	
+	public static void main(String[] args) {
+		Operadores o = new Operadores(3,5);
+		
+		System.out.println(o.verdOuFalso(0, 0));
+		
+		
+		
+	}
+}

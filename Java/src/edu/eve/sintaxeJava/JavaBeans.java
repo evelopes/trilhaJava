@@ -15,5 +15,4 @@ public class JavaBeans {
 	void concluirProcessamento() {};
 
 
-*//
 }
